@@ -12,6 +12,10 @@ h1{
   color : white;
   
 }
+.Holder{
+  padding-bottom: 50px;
+}
+
 
 .navbar{
   position: sticky;
@@ -25,10 +29,9 @@ h1{
   min-width: 300px;
 }
 
-hr{
+.navbar hr{
   width: 40%;
   min-width: 300px;
-  max-width: 300px;
   color: grey;
   border-radius: 20%;
 }
@@ -138,9 +141,35 @@ hr{
   background-color: #3a3a3c;
 }
 
-@media (max-height: 700px) {
+footer hr{
+  color: grey;
+}
+
+footer {
+  height: 60px;
+  width: 100vw;
+  min-width: 300px;
+  position: absolute;
+  bottom: 0;
+}
+
+footer p{
+  padding-top: 20px;
+  color: white;
+  font-family: monospace;
+}
+
+@media (max-height: 930px) {
+  footer{
+    display: none;
+
+  }
+}
+@media (max-height: 820px) {
   .clavier, .letters{
     margin-top: 6px;
   }
 }
+
+
 
